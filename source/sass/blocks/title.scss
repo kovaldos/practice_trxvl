@@ -1,0 +1,32 @@
+.title {
+  margin: 0;
+  padding: 0;
+  transition: color $trans-default;
+  font-weight: 700;
+
+  &--xxl {
+    font-size: 80px;
+    line-height: 92px;
+  }
+
+  &--xl {
+    font-size: 62px;
+    line-height: 71px;
+  }
+
+  &--l {
+    font-size: 53px;
+    line-height: 61px;
+  }
+
+  &--m {
+    font-size: 36px;
+    line-height: 41px;
+  }
+
+  &--s {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 34px;
+  }
+}
