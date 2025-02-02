@@ -1,14 +1,17 @@
 import gulp from 'gulp';
-import plumber from 'gulp-plumber';
 import pug from 'gulp-pug';
-import cached from 'gulp-cached';
+import plumber from 'gulp-plumber';
 
-const compilePug = () => {
+const compilePug = (data) => {
   return gulp
       .src('source/pug/pages/*.pug')
       .pipe(plumber())
-      .pipe(pug({pretty: true}))
-      .pipe(cached('pug'))
+      .pipe(
+          pug({
+            pretty: true,
+            locals: data, // Передаём данные в Pug
+          })
+      )
       .pipe(gulp.dest('build'));
 };
 

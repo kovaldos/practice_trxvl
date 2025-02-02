@@ -1,0 +1,24 @@
+{
+  "headerLinks": [
+    {
+      "href": "index.html",
+      "text": "home"
+    },
+    {
+      "href": "#stays",
+      "text": "stays"
+    },
+    {
+      "href": "#flights",
+      "text": "flights"
+    },
+    {
+      "href": "#packages",
+      "text": "packages"
+    },
+    {
+      "href": "#sign up",
+      "text": "sign up"
+    }
+  ]
+}
