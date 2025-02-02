@@ -16,7 +16,7 @@ html {
   font-weight: 400;
   font-size: $fz-default;
   line-height: 24px;
-  font-family: $ff-placeholder;
+  font-family: $ff-inter;
   color: $color-default-black;
 
   -webkit-font-smoothing: antialiased;
@@ -126,4 +126,10 @@ button,
 [type="reset"],
 [type="submit"] {
   appearance: none;
+}
+
+ul, ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }

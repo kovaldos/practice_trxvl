@@ -28,8 +28,9 @@ $fz-default:                        16px;
 // у некоторых шрифтов в ios возникают проблемы с символом рубля
 // https://www.artlebedev.ru/kovodstvo/sections/159/#13
 $ff-rouble:                         "Rouble", "Arial", sans-serif;
-
 $ff-placeholder:                    "Placeholder", "Arial", sans-serif;
+$ff-inter:                          "Inter", sans-serif;
+$ff-bebas-neue:                     "Bebas Neue", sans-serif;
 
 // Animation
 // ---------------------------------
@@ -56,6 +57,11 @@ $vp-1920:                           1920px;
 // Retina
 // ---------------------------------
 
-
 $retina-dpi:                        144dpi;
 $retina-dppx:                       1.5dppx;
+
+// Gutters
+//-----------------------------------
+
+$gutter_desk:                        10px;
+$gutter_mobile:                      8px;
