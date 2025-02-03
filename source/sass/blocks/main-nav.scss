@@ -10,12 +10,16 @@
   }
 
   &__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: $color-default-white;
     font-size: 17px;
     line-height: 20px;
     text-transform: capitalize;
     padding: $gutter_desk;
     position: relative;
+
     &::after {
       position: absolute;
       left: 0;
@@ -27,6 +31,7 @@
       background-color: $color-default-white;
       transition: all $trans-default;
     }
+
     @include hover {
       &::after {
         max-width: 100%;
